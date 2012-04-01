@@ -7,9 +7,9 @@ rzr provides:
 
 ```coffeescript
 @build  
-  agent: ‘Archivist’
-  use: ’gitomic’, ‘shake’
-  lookFor: ‘*’
+  agent: 'Archivist'
+  use: 'gitomic', 'shake'
+  lookFor: '*'
   pipeline: 
     1: apetail
     2: uglify
